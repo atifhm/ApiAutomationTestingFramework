@@ -1,0 +1,5 @@
+pytest
+allure-pytest
+pytest-xdist
+pytest-schema
+requests
