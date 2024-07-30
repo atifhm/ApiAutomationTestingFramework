@@ -15,7 +15,7 @@ import os
 # User Data:
 # | email | password | first_name | last_name | gender | date_of_birth | username | profile_picture   |
 # -------------------------------------------------------------------------------------------------------
-# | ah@gmail.com | passypass |   Hassan   |   Abbas   |   1    |   1992-18-01    | hassan  | "path/to/picture" |
+# | ah@gmail.com | passypass |   Atif   |   Hyder   |   1    |   1992-18-01    | atif  | "path/to/picture" |
 # When Set Post Register Api with user data
 # Then new account should be created with message "Account created successfully" in Response
 # And 200 in HTTP Response code
@@ -43,7 +43,7 @@ Given New User For Registration
 User Data:
 | email | password | first_name | last_name | gender | date_of_birth | username | profile_picture   |
 -------------------------------------------------------------------------------------------------------
-| ah@gmail.com | passypass |   Hassan   |   Abbas   |   1    |   1992-18-01    | hassan  | "path/to/picture" |
+| ah@gmail.com | passypass |   Atif   |   Hyder   |   1    |   1992-18-01    | atif  | "path/to/picture" |
 When Set Post Register Api with user data
 Then new account should be created with message "Account created successfully" in Response
 And 200 in HTTP Response code
