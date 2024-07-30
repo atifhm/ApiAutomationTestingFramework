@@ -6,10 +6,10 @@ class userData:
         self.email = get_randomEmail()
         self.password = "passypasss"
         self.newPassword = "passypass"
-        self.first_name = "Hassan"
-        self.last_name = "Abbas"
+        self.first_name = "Atif"
+        self.last_name = "Hyder"
         self.gender = "1"
-        self.date_of_birth = "1991-21-03"
+        self.date_of_birth = "1997-2-09"
         self.username = get_randomUsername()
         # self.img_path = os.getcwd() + "/../data/img.jpg"
         # self.profile_picture
